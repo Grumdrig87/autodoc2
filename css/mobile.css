@@ -1,0 +1,30 @@
+
+
+/* 993-1200px */
+@media screen and (max-width: 1200px) {
+  .container,
+  .container-l {
+    width: 960px;
+  }
+ 
+}
+
+/* 769-993px */
+@media screen and (max-width: 993px) {
+  
+}
+
+/* 577-768px */
+@media screen and (max-width: 768px) {
+ 
+}
+
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+ 
+}
+
+@media screen and (max-width: 375px) {
+  
+}
