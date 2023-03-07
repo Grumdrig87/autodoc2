@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <div class="black-scr" data-blkscr></div>
     <div class="wrap">
         <section class="banner-part">
             <div class="container">
@@ -31,7 +30,7 @@
                         marketplace for car parts.
                     </h1>
                     <p>
-                        Become a partner and sell your products to 
+                        Become a partner and sell your products to <br>
                         4.2 million customers in 27 European countries.
                     </p>
                     <a href="#" class="btn">
@@ -78,8 +77,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="discover__img obj-cover">
-                        <img src="img/export.png" alt="">
+                    <div class="discover__right">
+                        <div class="discover__img obj-cover">
+                            <img src="img/export.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +90,7 @@
                 <h2 class="title-l">
                     The power of the  Autodoc marketplace
                 </h2>
-                <p>
+                <p class="power__txt">
                     We are Europe’s largest online car parts retailer with 12 years' experience on the market, 
                     operating in 27 countries with turnover of more than €615 million a year
                 </p>
@@ -144,9 +145,11 @@
         </section>
         <section class="start">
             <div class="container">
-                <div class="start__wrap df aife jcsb">
-                    <div class="start__img obj-cover">
-                        <img src="img/steps.png" alt="">
+                <div class="start__wrap df aifs jcsb">
+                    <div class="start__left">
+                        <div class="start__img obj-cover">
+                            <img src="img/steps.png" alt="">
+                        </div>
                     </div>
                     <div class="start__info">
                         <h2 class="title-l">
@@ -161,11 +164,11 @@
                                 Upload your inventory feed 
                             </li>
                             <li>
-                                Prepare products for delivery 
+                                Prepare products for delivery <br>
                                 and ship the orders
                             </li>
                             <li>
-                                You'll receive payments for orders 
+                                You'll receive payments for orders <br>
                                 as soon as they have been completed
                             </li>
                         </ul>
@@ -175,10 +178,10 @@
         </section>
         <section class="partner-form">
             <div class="container">
-                <h2 class="title-l">
-                    Become a partner
-                </h2>
                 <form action="post" class="partner__form">
+                    <h2 class="title-l">
+                        Become a partner
+                    </h2>
                     <div class="partner-form__wrap df fww">
                         <div class="partner-form__item-wrap">
                             <div class="partner-form__item">
@@ -223,7 +226,10 @@
                     </div>
                     <div class="submit__wrap df aic">
                         <div class="submit__wrap-item">
-                            I have read and accept your <a href="#">privacy policy</a>
+                            <input type="checkbox" name="submit" id="submit">
+                            <label for="submit">
+                                I have read and accept your <a href="#">privacy policy</a>
+                            </label>
                         </div>
                         <input type="submit" value="Submit" class="btn">
                     </div>
